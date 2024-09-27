@@ -34,7 +34,9 @@ body {
     background-color: var(--white);
     border-radius: 20px;
     padding: var(--spacing-larger);
-    box-shadow: 7px 7px var(--gray-950);
+    box-shadow: 8px 8px var(--gray-950);
+    border-left: 1px solid black;
+    border-top: 1px solid black;
     display: flex;
     flex-direction: column;
     row-gap: var(--spacing-larger);

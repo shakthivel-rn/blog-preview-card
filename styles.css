@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'FigTree', sans-serif;
+}
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+    --white: hsl(0, 0%, 100%);
+
+    --font-large: 24px;
+    --font-medium: 16px;
+    --font-small: 14px;
+
+    --spacing-larger: 24px;
+    --spacing-large: 12px;
+    --spacing-medium: 8px;
+    --spacing-small: 4px;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 384px;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: var(--spacing-larger);
+    box-shadow: 7px 7px var(--gray-950);
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-larger);
+    cursor: pointer;
+}
+
+.illustration {
+    height: 200px;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-large);
+    color: var(--gray-950)
+}
+
+.category {
+    width: fit-content;
+    padding: var(--spacing-small) var(--spacing-large);
+    border: none;
+    border-radius: var(--spacing-small);
+    background-color: var(--yellow);
+}
+
+.card:hover .title {
+    color: var(--yellow);
+}
+
+.description {
+    color: var(--gray-500);
+}
+
+.author {
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+
+.user-pic {
+    width: 32px;
+    height: 32px;
+}
+
+.text {
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.text-preset1 {
+    font-size: var(--font-large);
+    font-weight: 800;
+}
+
+.text-preset2 {
+    font-size: var(--font-medium);
+    font-weight: 500;
+}
+
+.text-preset3 {
+    font-size: var(--font-small);
+    font-weight: 500;
+}
+
+.text-preset3-bold {
+    font-size: var(--font-small);
+    font-weight: 800;
+}

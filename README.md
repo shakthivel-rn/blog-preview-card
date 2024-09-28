@@ -20,8 +20,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Click Me](https://github.com/shakthivel-rn/social-links-profile)
-- Live Site URL: [Click Me](https://shakthivel-rn.github.io/social-links-profile/)
+- Solution URL: [Click Me](https://github.com/shakthivel-rn/blog-preview-card)
+- Live Site URL: [Click Me](https://shakthivel-rn.github.io/blog-preview-card/)
 
 ## My process
 
